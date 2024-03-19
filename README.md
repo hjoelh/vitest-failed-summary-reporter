@@ -1,0 +1,2 @@
+# vitest-failed-summary-reporter
+ 
