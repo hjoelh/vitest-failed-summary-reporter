@@ -1,0 +1,32 @@
+{
+  "name": "vitest-failed-summary-reporter",
+  "version": "0.0.1",
+  "description": "A vitest reporter that prints a summary of failed tests",
+  "private": false,
+  "sideEffects": false,
+  "type": "module",
+  "module": "build/index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "keywords": [
+    "vitest",
+    "vitest reporter",
+    "test fail summary"
+  ],
+  "author": "https://github.com/hjoelh",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "dev": "pnpm tsc  --watch",
+    "build": "rm -rf ./build && pnpm tsc",
+    "pack": "pnpm pack",
+    "publish:test": "npm publish --dry-run",
+    "publish": "pnpm build && npm publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "5.4.2"
+  }
+}
