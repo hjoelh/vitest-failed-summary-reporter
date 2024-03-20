@@ -5,7 +5,7 @@
 ---
 
 ```typescript
-import { failedSummary } from "vitest-fail-summary-reporter";
+import { failedSummary } from "vitest-failed-summary-reporter";
 ```
 
 Most useful when combined with another reporter as this only prints failed tests
