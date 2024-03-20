@@ -1,6 +1,6 @@
 {
   "name": "vitest-failed-summary-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A vitest reporter that prints a summary of failed tests",
   "private": false,
   "sideEffects": false,
