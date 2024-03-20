@@ -23,7 +23,7 @@
     "build": "rm -rf ./build && pnpm tsc",
     "pack": "pnpm pack",
     "publish:test": "npm publish --dry-run",
-    "publish": "pnpm build && npm publish"
+    "buildNPublish": "pnpm build && npm publish"
   },
   "dependencies": {},
   "devDependencies": {
